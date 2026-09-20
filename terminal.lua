@@ -32,7 +32,7 @@ function M.options(config)
 
 	----- Misc
 	config.adjust_window_size_when_changing_font_size = false
-	config.audible_bell = "Disabled"
+	config.audible_bell = "SystemBeep"
 	config.exit_behavior = "Close"
 	config.window_close_confirmation = "NeverPrompt"
 	config.scrollback_lines = 50000
