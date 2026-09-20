@@ -54,7 +54,8 @@ function M.options(config)
 		},
 	}
 	config.window_background_opacity = 0.5
-	config.macos_window_background_blur = 0
+	config.macos_window_background_blur = 15
+	config.enable_kitty_keyboard = true
 end
 
 return M
